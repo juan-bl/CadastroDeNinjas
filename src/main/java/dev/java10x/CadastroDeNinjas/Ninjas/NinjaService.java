@@ -41,7 +41,6 @@ public class NinjaService {
             ninjaAtualizado.setId(id);
             return ninjaRepository.save(ninjaAtualizado);
         }
-
         return null;
     }
 }
